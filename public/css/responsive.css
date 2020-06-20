@@ -1,0 +1,83 @@
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-width: 920px) {
+    #page-home {
+        background-position-x: 80vw;
+    }
+    #page-home .content {
+        align-content: center;
+        text-align: center;
+    }
+    #page-home header a {
+        position: absolute;
+        bottom: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #page-home main {
+        align-items: center;
+        margin: 0 auto;
+    }
+    #page-search-results cards {
+        grid-template-columns: 1fr;
+    }
+    #page-search-results cards img {
+        height: 250px;
+    }
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+    #page-create-point .field-group .field+.field {
+        margin-left: 0;
+    }
+}
+
+@media(max-height: 760px) {
+    #page-home {
+        background-position-y: 200px;
+    }
+}
+
+@media (max-width: 700px) {
+    #page-home header a {
+        bottom: -98px;
+    }
+    #page-create-point .itens-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:500px) {
+    #page-home header a {
+        bottom: -150px;
+    }
+    #page-home main {
+        margin-bottom: auto;
+    }
+    #page-home header a span {
+        padding-right: 22px;
+    }
+    #page-create-point .itens-grid {
+        grid-template-columns: 1fr;
+    }
+    #page-create-point form button {
+        width: 196px;
+    }
+    #page-create-point legend {
+        margin-bottom: 40px;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    #page-create-point a {
+        position: absolute;
+        top: 115px;
+        left: 50%;
+        transform: translateX(-68%);
+    }
+}
